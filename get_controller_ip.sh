@@ -1,9 +1,12 @@
 #! /bin/bash
 function controller_ip()
 {
-    local myresult= (cat /var/lib/jenkins/workspace/controller1/controller_ip.log)
+    local myresult=(cat $1)
     echo $myresult
 }
-controller_ip new_ip
-echo $new_ip
+
+cat $1
+
+#controller_ip new_ip
+#echo $new_ip
 
