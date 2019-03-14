@@ -13,7 +13,7 @@ variable "controller_amis" {
     byol = {
       us-east-1 = "ami-db9bb9a1"
       us-east-2 = "ami-b40228d1"
-      us-west-1 = "ami-2a7e7c4a"
+      us-west-1 = "ami-fa322b9a"
       us-west-2 = "ami-fd48f885"
       ca-central-1 = "ami-de4bceba"
       eu-central-1 = "ami-a025b9cf"
@@ -48,3 +48,5 @@ variable "controller_amis" {
     } 
   } 
 }
+      #us-west-1 = "ami-2a7e7c4a"
+      #us-west-2 = "ami-fd48f885"
